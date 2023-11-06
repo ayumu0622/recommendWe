@@ -2,7 +2,7 @@ import pandas as pd
 import sys
 import streamlit as st
 
-df = pd.read_csv("/Users/ayumuueda/Desktop/wevote_reco/model_with_twitter.csv")
+df = pd.read_csv("model_with_twitter.csv")
 
 st.set_page_config(page_title="Explore Related Candidates Demo")
 st.header("Explore Related Candidates Demo")
