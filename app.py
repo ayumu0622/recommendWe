@@ -1,15 +1,6 @@
 import pandas as pd
-import sys
 import streamlit as st
 import pandas as pd
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-import ast
-from sklearn.decomposition import PCA
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn import preprocessing
 from sklearn.metrics.pairwise import cosine_similarity
 
 df = pd.read_csv("cosine_model.csv")
